@@ -1,0 +1,41 @@
+{
+  "RF-Predictive": {
+    "setting": "cov=0.95,margin=0.1|combo:cooldown=8+min_abs=100+up_cooldown=x3",
+    "feasible": true,
+    "dev_reclaimed": 25.156062424969985,
+    "dev_extra_thr": 0.6044087647957298,
+    "dev_resizes_ph": 12.388955582232894,
+    "params": {
+      "coverage": 0.95,
+      "margin": 0.1,
+      "cooldown": 8,
+      "min_abs_change": 100.0,
+      "up_cooldown_mult": 3.0
+    }
+  },
+  "Threshold": {
+    "setting": "low=0.3,patience=8,down=0.9",
+    "feasible": true,
+    "dev_reclaimed": 14.005102040816327,
+    "dev_extra_thr": 0.6417230304985875,
+    "dev_resizes_ph": 16.350540216086433,
+    "params": {
+      "low": 0.3,
+      "patience": 8,
+      "down": 0.9
+    }
+  },
+  "VPA-style": {
+    "setting": "pct=0.99,margin=0.15,half_life=20,upper=0.95",
+    "feasible": true,
+    "dev_reclaimed": 26.000900360144062,
+    "dev_extra_thr": 0.1694020968442457,
+    "dev_resizes_ph": 3.0972388955582235,
+    "params": {
+      "pct": 0.99,
+      "margin": 0.15,
+      "half_life": 20,
+      "upper_pct": 0.95
+    }
+  }
+}

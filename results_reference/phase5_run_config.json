@@ -1,0 +1,48 @@
+{
+  "preregistration": "PREREGISTRATION_v1.3.md",
+  "preregistration_sha256": "72897BA28397C741B1DC535F9261E7285C3F6608EEBAEB2A9F21B456F5691499",
+  "frozen_v3_setting": "cov=0.95,margin=0.1|combo:cooldown=8+min_abs=100+up_cooldown=x3",
+  "frozen_v3_params": {
+    "coverage": 0.95,
+    "margin": 0.1,
+    "cooldown": 8,
+    "min_abs_change": 100.0,
+    "up_cooldown_mult": 3.0
+  },
+  "methods": [
+    "linear",
+    "higher"
+  ],
+  "part_a_families": [
+    "constant",
+    "low",
+    "high",
+    "ramp",
+    "periodic",
+    "bursty",
+    "irregular"
+  ],
+  "part_a_seeds": [
+    200,
+    249
+  ],
+  "part_b_cases": [
+    "B1_intensified_bursts",
+    "B2_faster_periodic",
+    "B3_faster_regime_changes"
+  ],
+  "part_b_seeds": [
+    300,
+    349
+  ],
+  "readings": 160,
+  "seconds_per_reading": 15,
+  "initial_allocation_m": 1000,
+  "minimum_allocation_m": 100,
+  "step_m": 50,
+  "backlog_carry": 0.5,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261023,
+  "expected_cases": 500,
+  "expected_policy_runs": 1000
+}

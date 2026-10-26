@@ -1,0 +1,11 @@
+{
+  "preregistration_hash_matches": true,
+  "frozen_settings_match": true,
+  "deterministic_generation_checks_passed": true,
+  "workload_cases": 500,
+  "policy_runs": 1000,
+  "trace_rows": 160000,
+  "all_runs_160_readings": true,
+  "different_trajectory_pairs": 318,
+  "existing_v3_and_quantile_outputs_written": false
+}

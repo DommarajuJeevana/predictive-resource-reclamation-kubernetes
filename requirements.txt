@@ -1,0 +1,6 @@
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+kubernetes>=30.1.0   # only needed by the live controller

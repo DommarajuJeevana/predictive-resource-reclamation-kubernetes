@@ -1,0 +1,83 @@
+{
+  "preregistration_sha256": "72897BA28397C741B1DC535F9261E7285C3F6608EEBAEB2A9F21B456F5691499",
+  "trace_rows_v2": 160000,
+  "unique_runs_v2": 1000,
+  "resize_applications_v2": 7317,
+  "csv_comparisons": [
+    {
+      "file": "phase5_bootstrap_summary.csv",
+      "match": true,
+      "detail": "exact data match"
+    },
+    {
+      "file": "phase5_group_summary.csv",
+      "match": true,
+      "detail": "exact data match"
+    },
+    {
+      "file": "phase5_metrics.csv",
+      "match": true,
+      "detail": "exact data match"
+    },
+    {
+      "file": "phase5_paired_comparison.csv",
+      "match": true,
+      "detail": "exact data match"
+    }
+  ],
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Required artifacts exist",
+      "passed": true,
+      "detail": "results_phase5_instrumented_v1\\phase5_traces.csv: present; results_phase5_instrumented_v1\\phase5_metrics.csv: present; results_phase5_instrumented_v2\\phase5_traces.csv: present; results_phase5_instrumented_v2\\phase5_metrics.csv: present; results_phase5_instrumented_v2\\PREREGISTRATION_v1.3.md: present; results_phase5_instrumented_v2\\PREREGISTRATION_SHA256.txt: present"
+    },
+    {
+      "check": "Preregistration hash matches",
+      "passed": true,
+      "detail": "expected=72897BA28397C741B1DC535F9261E7285C3F6608EEBAEB2A9F21B456F5691499; actual=72897BA28397C741B1DC535F9261E7285C3F6608EEBAEB2A9F21B456F5691499"
+    },
+    {
+      "check": "Required trace columns exist",
+      "passed": true,
+      "detail": "missing=none"
+    },
+    {
+      "check": "Expected 1000 runs and 160 readings per run",
+      "passed": true,
+      "detail": "runs=1000; rows=160000; run-length-values=[160]"
+    },
+    {
+      "check": "Legacy alias preserved",
+      "passed": true,
+      "detail": "resize_in_flight equals resize_in_flight_before_decision"
+    },
+    {
+      "check": "Resize lifecycle is consistent",
+      "passed": true,
+      "detail": "applied=7317; previous_tick_scheduled=7317; unmatched_applications=0; unapplied_schedules=0; nonconsecutive_transitions=0"
+    },
+    {
+      "check": "v1/v2 shared trace data unchanged",
+      "passed": true,
+      "detail": "all 28 shared columns match exactly"
+    },
+    {
+      "check": "At least one non-trace CSV compared",
+      "passed": true,
+      "detail": "compared=4"
+    },
+    {
+      "check": "Original Phase 5 directory exists",
+      "passed": true,
+      "detail": "results_phase5_v1"
+    },
+    {
+      "check": "Original Phase 5 hash manifest exists",
+      "passed": true,
+      "detail": "results_phase5_v1\\PHASE5_POSTRUN_SHA256.txt"
+    }
+  ],
+  "errors": [],
+  "original_manifest_path": "results_phase5_v1\\PHASE5_POSTRUN_SHA256.txt"
+}
