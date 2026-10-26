@@ -44,7 +44,7 @@ Some checks may require optional Kubernetes dependencies or environment-specific
 
 The dataset release contains the archived main-evaluation CSVs and the separate quantile/closed-loop diagnostic CSVs. The main evaluation and the diagnostic use different evaluation designs and must not be combined as though they were one sample. The preregistration, run configuration, environment record, source hashes, and audit report are included in `results_reference/`.
 
-**Dataset URL:** TO BE ADDED after public deposit.
+**Dataset URL:** https://doi.org/10.6084/m9.figshare.34785774
 
 ## Citation
 
